@@ -1,0 +1,23 @@
+<meta>
+	<info author = "Shaders System By MrAhmed" title = "Shaders System" version = "1.0.0" />
+	
+	<script src = "shaders.lua" type = "client"/>
+	<script src = "outlineShader.lua" type = "client"/>
+	 <file src="fx/blackwhite.fx" type="client" cache="false" />
+	  <file src="fx/outline.fx" type="client" cache="false"/>
+	  <file src="fx/died.fx" type="client" cache="false"/>
+	   <file src="fx/F10.fx" type="client" cache="false"/>
+	   <file src="fx/fxBlurH.fx" type="client" cache="false"/>
+	   <file src="fx/fxBlurV.fx" type="client" cache="false"/>
+	    <file src="img/closeLight.png" type="client" cache="false"/>
+		 <file src="img/white.png" type="client" cache="false"/>
+		  <file src="img/login.png" type="client" cache="false"/>
+		   <file src="img/died.png" type="client" cache="false"/>
+	    <export function="startRender" type="client" cache="false" />
+		<export function="stopRender" type="client" cache="false" />
+		 <export function="startFxImg" type="client" cache="false" />
+		<export function="stopFxImg" type="client" cache="false" />
+		<export function="createBlur" type="client" cache="false" />
+		<export function="createOutlineForPlayer" type="client" cache="false" />
+		<export function="removeOutlineFromPlayer" type="client" cache="false" />
+</meta>
