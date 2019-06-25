@@ -1,0 +1,52 @@
+<meta>
+
+	<info author="MrAhmed" type="script" version = "1.0.0" />
+	
+	<file src="images/logo.png" />
+	<file src="images/correct.png" />
+	<file src="images/circle.png" />
+	<file src="images/correct2.png" />
+	<file src="images/circle2.png" />
+	<file src="images/eye.png" />
+	<file src="images/arrowleft.png" />
+	<file src="images/arrowright.png" />
+	<file src="images/emptyradio.png" />
+	<file src="images/close.png" />
+	<file src="images/radio.png" />
+	<file src="rounded.png" />
+	
+	<script src = "interface.lua" type = "client" />
+	
+	<export function="convertUI" type="client" />
+	<export function="setFont" type="client" />
+	<export function="hideTitleBar" type="client" />
+	<export function="setButtonColor" type="client" />
+	<export function="setButtonHoverLineColor" type="client" />
+	<export function="setButtonClickColor" type="client" />
+	<export function="AddButtonIcon" type="client" />
+	<export function="setEditColor" type="client" />
+	<export function="setEditHoverLineColor" type="client" />
+	<export function="setEditClickColor" type="client" />
+	<export function="AddEditIcon" type="client" />
+	<export function="addCloseButton" type="client" />
+	<export function="AddWindowIcon" type="client" />
+	<export function="setWindowColor" type="client" />
+	<export function="windowFooter" type="client" />
+	<export function="setTitleLineColor" type="client" />
+	<export function="setLabelBackGround" type="client" />
+	<export function="setHoverButtonType" type="client" />
+	<export function="guiCreateToolTip" type="client" />
+	<export function="setEditExample" type="client" />
+	
+	<file src="fonts/Title.ttf" />
+	<file src="fonts/openLight.ttf" />
+	<file src="fonts/openSans.ttf" />
+	<file src="fonts/AbelRegular.ttf" />
+	<file src="fonts/OswaldBold.ttf" />
+	<file src="fonts/ElMessiriRegular.ttf" />
+	<file src="fonts/PacificoRegular.ttf" />
+	<file src="fonts/Tajawal.ttf" />
+	<file src="fonts/Changa.ttf" />
+	<file src="fonts/Kalam.ttf" />
+	<oop>true</oop>
+</meta>
