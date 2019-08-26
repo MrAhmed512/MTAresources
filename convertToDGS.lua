@@ -43,3 +43,9 @@ function guiCreateCheckBox(...)
     local check = exports.dgs:dgsCreateCheckBox(...)
     return check
 end
+local addE = addEventHandler
+function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated)
+	if eventName == "onClientGUIClick" then eventName = "onDgsMouseClick"
+	end
+	addE(eventName, attachedTo, handlerFunction, getPropagated)
+end
