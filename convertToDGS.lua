@@ -44,7 +44,7 @@ function guiCreateCheckBox(...)
     return check
 end
 local addE = addEventHandler
-function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated)
+function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated, priority)
 	if eventName == "onClientGUIClick" then eventName = "onDgsMouseClick"
 	elseif eventName == "onClientMouseEnter" then eventName = "onDgsMouseEnter"
 	elseif eventName == "onClientMouseLeave" then eventName = "onDgsMouseLeave"
@@ -63,5 +63,5 @@ function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated)
 	elseif eventName == "onClientGUIBlur" then eventName = "onDgsBlur"
 	elseif eventName == "onClientGUIAccepted" then eventName = "onDgsEditAccepted"
 	end
-	addE(eventName, attachedTo, handlerFunction, getPropagated)
+	addE(eventName, attachedTo, handlerFunction, getPropagated, priority )
 end
