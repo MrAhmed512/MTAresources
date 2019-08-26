@@ -43,6 +43,35 @@ function guiCreateCheckBox(...)
     local check = exports.dgs:dgsCreateCheckBox(...)
     return check
 end
+--
+function guiSetPosition(...)
+    exports.dgs:dgsSetPosition(...)
+end
+function guiGetPosition(...)
+    return exports.dgs:dgsGetPosition(...)
+end
+function getElementParent(...)
+    return exports.dgs:dgsGetParent(...)
+end
+function setElementParent(...)
+    exports.dgs:dgsSetParent(...)
+end
+function getElementChild(...)
+    return exports.dgs:dgsGetChild(...)
+end
+function getElementChildren(...)
+    return exports.dgs:dgsGetChildren(...)
+end
+function guiGetSize(...)
+    return exports.dgs:dgsGetSize(...)
+end
+function guiSetSize(...)
+    return exports.dgs:dgsSetSize(...)
+end
+function getElementType(...)
+    return exports.dgs:dgsGetType(...)
+end
+--
 local addE = addEventHandler
 function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated, priority)
 	if eventName == "onClientGUIClick" then eventName = "onDgsMouseClick"
