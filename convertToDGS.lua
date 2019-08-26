@@ -321,8 +321,6 @@ function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated, 
 	elseif eventName == "onClientGUIFocus" then eventName = "onDgsFocus"
 	elseif eventName == "onClientGUIDoubleClick" then eventName = "onDgsMouseDoubleClick"
 	elseif eventName == "onClientGUIComboBoxAccepted" then eventName = "onDgsComboBoxAccepted"
-	elseif eventName == "onClientGUIMouseDown" then eventName = "onDgsMouseClick"
-	elseif eventName == "onClientGUIMouseUp" then eventName = "onDgsMouseClick"
 	elseif eventName == "onClientGUIChanged" then eventName = "onDgsTextChange"
 	elseif eventName == "onClientGUIBlur" then eventName = "onDgsBlur"
 	elseif eventName == "onClientGUIAccepted" then eventName = "onDgsEditAccepted"
