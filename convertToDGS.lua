@@ -45,7 +45,7 @@ function guiCreateCheckBox(...)
 end
 --
 function guiSetPosition(...)
-    exports.dgs:dgsSetPosition(...)
+    return exports.dgs:dgsSetPosition(...)
 end
 function guiGetPosition(...)
     return exports.dgs:dgsGetPosition(...)
@@ -54,7 +54,7 @@ function getElementParent(...)
     return exports.dgs:dgsGetParent(...)
 end
 function setElementParent(...)
-    exports.dgs:dgsSetParent(...)
+    return exports.dgs:dgsSetParent(...)
 end
 function getElementChild(...)
     return exports.dgs:dgsGetChild(...)
@@ -70,6 +70,15 @@ function guiSetSize(...)
 end
 function getElementType(...)
     return exports.dgs:dgsGetType(...)
+end
+function guiGetProperty(...)
+    return exports.dgs:dgsGetProperty(...)
+end
+function guiSetProperty(...)
+    return exports.dgs:dgsSetProperty(...)
+end
+function guiGetText(...)
+    return exports.dgs:dgsGetText(...)
 end
 --
 local addE = addEventHandler
