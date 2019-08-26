@@ -80,6 +80,48 @@ end
 function guiGetText(...)
     return exports.dgs:dgsGetText(...)
 end
+function guiGetProperties(...)
+    return exports.dgs:dgsGetProperties(...)
+end
+function guiGetVisible(...)
+    return exports.dgs:dgsGetVisible(...)
+end
+function guiSetVisible(...)
+    return exports.dgs:dgsSetVisible(...)
+end
+function guiGetEnabled(...)
+    return exports.dgs:dgsGetEnabled(...)
+end
+function guiSetEnabled(...)
+    return exports.dgs:dgsSetEnabled(...)
+end
+function guiGetAlpha(...)
+    return exports.dgs:dgsGetAlpha(...)
+end
+function guiSetAlpha(...)
+    return exports.dgs:dgsSetAlpha(...)
+end
+function guiGetFont(...)
+    return exports.dgs:dgsGetFont(...)
+end
+function guiSetFont(...)
+    return exports.dgs:dgsSetFont(...)
+end
+function guiGetText(...)
+    return exports.dgs:dgsGetText(...)
+end
+function guiSetText(...)
+    return exports.dgs:dgsSetText(...)
+end
+function guiCreateFont(...)
+    return exports.dgs:dgsCreateFont(...)
+end
+function guiBringToFront(...)
+    return exports.dgs:dgsBringToFront(...)
+end
+function guiCreateBrowser(...)
+    return exports.dgs:dgsCreateBrowser(...)
+end
 --
 local addE = addEventHandler
 function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated, priority)
