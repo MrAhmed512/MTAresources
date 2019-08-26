@@ -46,6 +46,22 @@ end
 local addE = addEventHandler
 function addEventHandler(eventName, attachedTo, handlerFunction, getPropagated)
 	if eventName == "onClientGUIClick" then eventName = "onDgsMouseClick"
+	elseif eventName == "onClientMouseEnter" then eventName = "onDgsMouseEnter"
+	elseif eventName == "onClientMouseLeave" then eventName = "onDgsMouseLeave"
+	elseif eventName == "onClientMouseMove" then eventName = "onDgsCursorMove"
+	elseif eventName == "onClientMouseWheel" then eventName = "onDgsMouseWheel"
+	elseif eventName == "onClientGUITabSwitched" then eventName = "onDgsTabSelect"
+	elseif eventName == "onClientGUIScroll" then eventName = "onDgsScrollBarScrollPositionChange"
+	elseif eventName == "onClientGUISize" then eventName = "onDgsSizeChange"
+	elseif eventName == "onClientGUIMove" then eventName = "onDgsPositionChange"
+	elseif eventName == "onClientGUIFocus" then eventName = "onDgsFocus"
+	elseif eventName == "onClientGUIDoubleClick" then eventName = "onDgsMouseDoubleClick"
+	elseif eventName == "onClientGUIComboBoxAccepted" then eventName = "onDgsComboBoxAccepted"
+	elseif eventName == "onClientGUIMouseDown" then eventName = "onDgsMouseClick"
+	elseif eventName == "onClientGUIMouseUp" then eventName = "onDgsMouseClick"
+	elseif eventName == "onClientGUIChanged" then eventName = "onDgsTextChange"
+	elseif eventName == "onClientGUIBlur" then eventName = "onDgsBlur"
+	elseif eventName == "onClientGUIAccepted" then eventName = "onDgsEditAccepted"
 	end
 	addE(eventName, attachedTo, handlerFunction, getPropagated)
 end
