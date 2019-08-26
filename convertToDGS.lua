@@ -43,6 +43,22 @@ function guiCreateCheckBox(...)
     local check = exports.dgs:dgsCreateCheckBox(...)
     return check
 end
+function guiCreateMemo(...)
+    local memo = exports.dgs:dgsCreateMemo(...)
+	return memo
+end
+function guiCreateScrollBar(...)
+    local scroll = exports.dgs:dgsCreateScrollBar(...)
+	return scroll
+end
+function guiCreateScrollPane(...)
+    local scrollPane = exports.dgs:dgsCreateScrollPane(...)
+	return scrollPane
+end
+function guiCreateTab(...)
+    local tab = exports.dgs:dgsCreateTab(...)
+	return tab
+end
 --
 function guiSetPosition(...)
     return exports.dgs:dgsSetPosition(...)
@@ -121,6 +137,174 @@ function guiBringToFront(...)
 end
 function guiCreateBrowser(...)
     return exports.dgs:dgsCreateBrowser(...)
+end
+function guiCheckBoxGetSelected(...)
+    return exports.dgs:dgsCheckBoxGetSelected(...)
+end
+function guiCheckBoxSetSelected(...)
+    return exports.dgs:dgsCheckBoxSetSelected(...)
+end
+function guiComboBoxAddItem(...)
+    return exports.dgs:dgsComboBoxAddItem(...)
+end
+function guiComboBoxRemoveItem(...)
+    return exports.dgs:dgsComboBoxRemoveItem(...)
+end
+function guiComboBoxSetItemText(...)
+    return exports.dgs:dgsComboBoxSetItemText(...)
+end
+function guiComboBoxGetItemText(...)
+    return exports.dgs:dgsComboBoxGetItemText(...)
+end
+function guiComboBoxClear(...)
+    return exports.dgs:dgsComboBoxClear(...)
+end
+function guiComboBoxSetSelected(...)
+    return exports.dgs:dgsComboBoxSetSelectedItem(...)
+end
+function guiComboBoxGetSelected(...)
+    return exports.dgs:dgsComboBoxGetSelectedItem(...)
+end
+function guiEditGetMaxLength(...)
+    return exports.dgs:dgsEditGetMaxLength(...)
+end
+function guiEditSetMaxLength(...)
+    return exports.dgs:dgsEditSetMaxLength(...)
+end
+function guiEditSetReadOnly(...)
+    return exports.dgs:dgsEditSetReadOnly(...)
+end
+function guiEditIsReadOnly(...)
+    return exports.dgs:dgsEditGetReadOnly(...)
+end
+function guiEditSetMasked(...)
+    return exports.dgs:dgsEditSetMasked(...)
+end
+function guiEditIsMasked(...)
+    return exports.dgs:dgsEditGetMasked(...)
+end
+function guiGridListAddColumn(...)
+    return exports.dgs:dgsGridListAddColumn(...)
+end
+function guiGridListGetColumnCount(...)
+    return exports.dgs:dgsGridListGetColumnCount(...)
+end
+function guiGridListRemoveColumn(...)
+    return exports.dgs:dgsGridListRemoveColumn(...)
+end
+function guiGridListGetColumnWidth(...)
+    return exports.dgs:dgsGridListGetColumnWidth(...)
+end
+function guiGridListSetColumnWidth(...)
+    return exports.dgs:dgsGridListSetColumnWidth(...)
+end
+function guiGridListGetColumnTitle(...)
+    return exports.dgs:dgsGridListGetColumnTitle(...)
+end
+function guiGridListSetColumnTitle(...)
+    return exports.dgs:dgsGridListSetColumnTitle(...)
+end
+function guiGridListAddRow(...)
+    return exports.dgs:dgsGridListAddRow(...)
+end
+function guiGridListRemoveRow(...)
+    return exports.dgs:dgsGridListRemoveRow(...)
+end
+function guiGridListClear(...)
+    return exports.dgs:dgsGridListClear(...)
+end
+function guiGridListGetRowCount(...)
+    return exports.dgs:dgsGridListGetRowCount(...)
+end
+function guiGridListSetItemText(...)
+    return exports.dgs:dgsGridListSetItemText(...)
+end
+function guiGridListSetItemText(...)
+    return exports.dgs:dgsGridListSetRowAsSection(...)
+end
+function guiGridListGetItemText(...)
+    return exports.dgs:dgsGridListGetItemText(...)
+end
+function guiGridListGetSelectedItem(...)
+    return exports.dgs:dgsGridListGetSelectedItem(...)
+end
+function guiGridListSetSelectedItem(...)
+    return exports.dgs:dgsGridListSetSelectedItem(...)
+end
+function guiGridListSetItemColor(...)
+    return exports.dgs:dgsGridListSetItemColor(...)
+end
+function guiGridListGetItemColor(...)
+    return exports.dgs:dgsGridListGetItemColor(...)
+end
+function guiGridListSetItemData(...)
+    return exports.dgs:dgsGridListSetItemData(...)
+end
+function guiGridListGetItemData(...)
+    return exports.dgs:dgsGridListGetItemData(...)
+end
+function guiGridListSetSelectionMode(...)
+    return exports.dgs:dgsGridListSetSelectionMode(...)
+end
+function guiGridListGetSelectedItems(...)
+    return exports.dgs:dgsGridListGetSelectedItems(...)
+end
+function guiStaticImageLoadImage(...)
+    return exports.dgs:dgsImageSetImage(...)
+end
+function guiMemoSetVerticalScrollPosition(...)
+    return exports.dgs:dgsMemoSetScrollPosition(...)
+end
+function guiMemoGetVerticalScrollPosition(...)
+    return exports.dgs:dgsMemoGetScrollPosition(...)
+end
+function guiMemoSetReadOnly(...)
+    return exports.dgs:dgsMemoSetReadOnly(...)
+end
+function guiLabelSetColor(...)
+    return exports.dgs:dgsLabelSetColor(...)
+end
+function guiLabelGetColor(...)
+    return exports.dgs:dgsLabelGetColor(...)
+end
+function guiLabelSetHorizontalAlign(...)
+    return exports.dgs:dgsLabelSetHorizontalAlign(...)
+end
+function guiLabelSetVerticalAlign(...)
+    return exports.dgs:dgsLabelSetVerticalAlign(...)
+end
+function guiProgressBarGetProgress(...)
+    return exports.dgs:dgsProgressBarGetProgress(...)
+end
+function guiProgressBarSetProgress(...)
+    return exports.dgs:dgsProgressBarSetProgress(...)
+end
+function guiRadioButtonGetSelected(...)
+    return exports.dgs:dgsRadioButtonGetSelected(...)
+end
+function guiRadioButtonSetSelected(...)
+    return exports.dgs:dgsRadioButtonSetSelected(...)
+end
+function guiScrollBarSetScrollPosition(...)
+    return exports.dgs:dgsScrollBarSetScrollPosition(...)
+end
+function guiScrollBarGetScrollPosition(...)
+    return exports.dgs:dgsScrollBarGetScrollPosition(...)
+end
+function guiGetSelectedTab(...)
+    return exports.dgs:dgsGetSelectedTab(...)
+end
+function guiSetSelectedTab(...)
+    return exports.dgs:dgsSetSelectedTab(...)
+end
+function guiDeleteTab(...)
+    return exports.dgs:dgsDeleteTab(...)
+end
+function guiWindowSetSizable(...)
+    return exports.dgs:dgsWindowSetSizable(...)
+end
+function guiWindowSetMovable(...)
+    return exports.dgs:dgsWindowSetMovable(...)
 end
 --
 local addE = addEventHandler
